@@ -1,0 +1,52 @@
+.colornav{
+    background-color: rgba(21, 7, 54, 0.856);
+}
+.nav-link{
+    color: rgb(185, 151, 218);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-content{
+    background: url("/imagen/hair-cut-for-long-hair.webp")no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     text-align: center;
+     padding: 40px;
+
+}
+.intro{
+    font-size: 20px;
+    margin:0 auto 10px;
+    margin-top: 70px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.card-header{
+    color: #877b9b;
+    background-color: #4a1e91;
+}
+.text-center{
+    margin-top: 100px;
+}
+.section{
+    background-color: #ab92d3;
+}
+.card{
+    margin: 1rem 0;
+}
+
+.imagen-estetica{
+    height: 500px !important;
+    object-fit: cover;
+}
